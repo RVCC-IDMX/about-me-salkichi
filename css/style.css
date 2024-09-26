@@ -1,21 +1,21 @@
 body {
-    color: black;
-    background-color: #e53f71;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #1d1c20;
+    font-family: 'Sans', Arial, sans-serif;
 } 
 header {
 text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: impact, sans-serif;
+    font-family: 'Franklin Gothic', sans-serif;
     font-size: 200%;
 }
 #hero, footer {
     text-align: center;
-    background-color: #653780;
-    color: black;
+    background-color: #ff4545;
+    color: whitesmoke;
     padding: 20px;
-    border: 10px outset #3f1651;
+    border: 10px outset #973336;
     border-radius: 40px;
 }
 #hero img {
