@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 200%;
     text-align: center;
 }
+img{
+    max-width: 100%;
+}
+
 #hero, footer {
     text-align: center;
     background-color: #ff4545;
@@ -31,6 +35,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Smash characters */
-#hai-640w ul li:nth-child(odd) {
+#hobbies ul li:nth-child(odd) {
     color: #717EC3;
+}
+/* Gallery */
+#gallery {
+    border: 10px outset #973336;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ff4545;
+}
+#gallery hr {
+    border: none;
 }
