@@ -1,24 +1,34 @@
-body{
-    color:whitesmoke;
+body {
+    color: whitesmoke;
     background-color: #1d1c20;
     font-family: 'Sans', Arial, sans-serif;
-} 
-header {
-text-align: center;
 }
+
+header {
+    text-align: center;
+}
+
 #header img {
     width: 150px;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Franklin Gothic', sans-serif;
     font-size: 200%;
     text-align: center;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
-#hero, footer {
+#hero,
+footer {
     text-align: center;
     background-color: #ff4545;
     color: whitesmoke;
@@ -26,10 +36,12 @@ img{
     border: 10px outset #973336;
     border-radius: 40px;
 }
+
 #hero img {
     width: 300px;
     /* Bio */
 }
+
 #bio {
     text-align: center;
 }
@@ -38,6 +50,7 @@ img{
 #hobbies ul li:nth-child(odd) {
     color: #717EC3;
 }
+
 /* Gallery */
 #gallery {
     border: 10px outset #973336;
@@ -45,6 +58,34 @@ img{
     text-align: center;
     background-color: #ff4545;
 }
+
 #gallery hr {
     border: none;
+}
+
+/* Article */
+
+#lit {
+    text-align: justify;
+}
+#lit div {
+    padding: 2cm;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Dropcaps */
+#lit p:first-letter {
+    color: #ff4545;
+    float: left;
+    text-shadow: 0px 0px 3px #973336;
+    font-size: .75cm;
+    border: 2px solid #ff4545;
+    margin-right: .25ex;
+    line-height: 100%;
+    padding: .1ex;
+}
+#lit p {
+    clear:both;
 }
