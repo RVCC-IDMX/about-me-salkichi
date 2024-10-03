@@ -12,6 +12,7 @@ text-align: center;
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Franklin Gothic', sans-serif;
     font-size: 200%;
+    text-align: center;
 }
 #hero, footer {
     text-align: center;
@@ -23,7 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero img {
     width: 300px;
+    /* Bio */
 }
 #bio {
     text-align: center;
+}
+
+/* Smash characters */
+#hai-640w ul li:nth-child(odd) {
+    color: #717EC3;
 }
