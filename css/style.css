@@ -11,8 +11,11 @@ header {
 #header img {
     width: 150px;
 }
-
-h1,
+h1 {
+    font-family: 'Franklin Gothic', sans-serif;
+    font-size: 250%;
+    text-align: center;
+}
 h2,
 h3,
 h4,
@@ -46,7 +49,10 @@ footer {
     text-align: center;
 }
 
-/* Smash characters */
+/* Hobbies */
+#hobbies ul {
+    text-align: center;
+}
 #hobbies ul li:nth-child(odd) {
     color: #717EC3;
 }
@@ -68,11 +74,13 @@ footer {
 #lit {
     text-align: justify;
 }
+
 #lit div {
-    padding: 2cm;
+    padding: 1.5cm;
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 /* Dropcaps */
@@ -88,4 +96,34 @@ footer {
 }
 #lit p {
     clear:both;
+}
+/* Video */
+
+#videocontainercontainer {
+    max-width: 100%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#videocontainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;   /*16:9 = 56.35%
+                        4:3 = 75% */
+}
+
+#myvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#videocaption {
+text-align: center;
+padding-bottom: 1em;
 }
