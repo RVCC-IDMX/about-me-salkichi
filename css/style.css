@@ -47,11 +47,21 @@ footer {
 
 #bio {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Hobbies */
+#hobbies {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
 #hobbies ul {
     text-align: center;
+    margin-bottom: 1.75cm;
 }
 #hobbies ul li:nth-child(odd) {
     color: #717EC3;
@@ -76,11 +86,9 @@ footer {
 }
 
 #lit div {
-    padding: 1.5cm;
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 /* Dropcaps */
@@ -126,4 +134,35 @@ footer {
 #videocaption {
 text-align: center;
 padding-bottom: 1em;
+}
+
+@media screen and (min-width: 60em) {
+
+    #gallery figure {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+    #lit div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        max-width:100%;
+        columns: 40rem;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
