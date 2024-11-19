@@ -164,6 +164,70 @@
 
 </section>
 
+<section id="contact">
+
+    <h2>Contact me!</h2>
+
+        <form id="contactForm" name="contactForm" method="post">
+
+            <fieldset>
+
+                <legend>Contact Form</legend>
+
+                <div id="formElements">
+
+                <!-- Name -->
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email -->
+                <label for="email">Email (required)</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Phone -->
+                <label for="phone">Phone (optional)</label>
+                <input type="tel" id="phone" name="phone">
+
+                <!-- Phone Type -->
+                <label for="phonetype">Phone type (optional)</label>
+                <select id="phonetype">
+                    <option value="" selected>Select phone type</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+                </select>
+
+                <!-- Message -->
+                <label for="message">Message (optional)</label>
+                <textarea id="message" name="message" rows="8" placeholder="Message"></textarea>
+
+                <!-- Reply -->
+                 <fieldset>
+                    <legend>Would you like a reply?</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" id="message-yes" name="reply" value="Yes a reply please">
+                            Yes, a reply would be nice!
+                        </li>
+                        <li>
+                            <input type="radio" id="message-no" name="reply" value="No reply please" checked>
+                            <label for="">No thanks, bro!</label>
+                        </li>
+                    </ul>
+
+                 </fieldset>
+
+                <!-- Submit -->
+                 <button type="submit">Send</button>
+
+                </div>
+
+            </fieldset>
+
+        </form>
+
+</section>
+
     </main>
 
     <footer>

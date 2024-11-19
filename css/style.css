@@ -136,6 +136,14 @@ text-align: center;
 padding-bottom: 1em;
 }
 
+/* Contact Form */
+
+#formElements {
+    display: grid;
+}
+
+/* Screen size */
+
 @media screen and (min-width: 60em) {
 
     #gallery figure {
