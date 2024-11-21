@@ -20,14 +20,27 @@
 
     <!--The body tag is where all the stuff is shown to the user-->
 
-    <header>
-        <section id="header">
-            <!--The header shows the page logo and title.-->
-            <img src="img/bird.png" alt="Bob.">
-
-            <h1>Web Dev 1</h1>
-        </section>
-    </header>
+<header>
+    <!--The header shows the page logo and title.-->
+        <nav class="navbar"> 
+            <div class="logo">
+                <img
+                    src="img/bird.png"
+                    class="logo-img"
+                    alt="Bob."
+                    />
+                <h1 class="logo-title">Web Dev I</h1>
+            </div>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#bio">Bio</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#lit">Blog</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+        </nav>     
+</header>
 
     <main>
 
@@ -101,7 +114,7 @@
 
         <article id="lit">
 
-            <h3>My literature</h3>
+            <h3>Blog</h3>
 
             <div>
                 <p>"And now we must settle what we do. We have here much data, and we must proceed to lay out our

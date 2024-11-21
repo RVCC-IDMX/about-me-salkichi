@@ -8,9 +8,6 @@ header {
     text-align: center;
 }
 
-#header img {
-    width: 150px;
-}
 h1 {
     font-family: 'Franklin Gothic', sans-serif;
     font-size: 250%;
@@ -42,8 +39,9 @@ footer {
 
 #hero img {
     width: 300px;
-    /* Bio */
 }
+
+/* Bio */
 
 #bio {
     text-align: center;
