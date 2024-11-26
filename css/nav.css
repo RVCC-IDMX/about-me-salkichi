@@ -24,7 +24,7 @@ main {
 /* navbar */
 
 .navbar {
-    background-color: black;
+    background-color: #1d1c20;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -47,6 +47,7 @@ main {
 
 .logo h1 {
     font-size: 1.2em;
+    padding-left: .25em;
 }
 
 /* navigation list */

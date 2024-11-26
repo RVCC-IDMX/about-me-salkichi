@@ -25,6 +25,8 @@ h6 {
 
 img {
     max-width: 100%;
+    min-width: 28px;
+    min-height: 28px;
 }
 
 #hero,
