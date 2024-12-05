@@ -8,6 +8,8 @@ The color scheme I chose was based off of my preference for the "dark mode" vers
 
 For my gallery, I decided to put examples of my own artwork, both to help the audience learn some things about me, and because I could feature artwork without having to credit another artist. My avatar is sourced from the free avatar generator, https://getavataaars.com/. My logo, though it belongs to a fictional corporation, was created by game company Capcom. 
 
+In my blog article, I used https://www.w3schools.com/css/css3_animations.asp and https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations as sources for my research on CSS animations. 
+
 I am reserving the copyright to my own artwork. 
 
 Sal Natzmer 2024 ©
